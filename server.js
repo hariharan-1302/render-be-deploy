@@ -7,7 +7,7 @@ connectDB();
 
 const app = express();
 
-app.use(cors({ origin: 'http://localhost:5173' }));
+app.use(cors({ origin: 'https://vercel.com/qwerty-c725/qwerty' }));
 app.use(express.json());
 
 app.get('/', (req, res) => res.send('API is running'));
